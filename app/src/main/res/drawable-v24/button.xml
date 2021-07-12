@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector xmlns:tools="http://schemas.android.com/tools" xmlns:android="http://schemas.android.com/apk/res/android">
+<item android:state_focused="true"
+    android:state_pressed="true"
+    android:drawable="@color/textColorPrimary_L"/>
+    <item android:state_focused="false"
+        android:state_pressed="true"
+        android:drawable="@color/textColorPrimary_L"/>
+    <item android:drawable="@color/colorTint" tools:ignore="StateListReachable" />
+    <item android:state_selected="true"
+        android:state_focused="true"
+        android:drawable="@color/textColorPrimary_L"/>
+</selector>
